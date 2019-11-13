@@ -1,0 +1,54 @@
+* {
+    background-color:orange;
+}
+.title-col {
+    margin-top: 10px;
+    height: 60px;
+    margin-left: 10px;
+    color:black;
+}
+.rules-col {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.number-col {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 130px;
+}
+.user-col {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#stoneImage {
+    width: 100%;
+object-fit: cover;
+}
+#stoneImage2 {
+    width: 100%;
+    object-fit: cover;
+}
+#stoneImage3 {
+    width: 100%;
+    object-fit: cover;
+}
+#stoneImage4 {
+    width: 100%;
+    object-fit: cover;
+}
+.crystal-row {
+    margin-top: 10px;
+}
+.total-col {
+    margin-left: 10px;
+    margin-top: 10px;
+    color:black;
+}
+.final-col {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 130px;
+    margin-bottom: 30px;
+    color:black;
+}

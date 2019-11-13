@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row title-row">
+            <div class="col-4 title-col">
+                <header><h1>Crystals Collector!</h1></header>
+            </div>
+        </div>
+        <div class="row rules">
+            <div class="col-7 rules-col">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to a random number. You lose the game if your total score goes above the random number.</p>
+                <p>Each time the game starts, the values of each crystal will change.</p>
+            </div>
+        </div>
+        <div class="row number-row">
+            <div class="col-4 random-col">
+                <h2>Random Number:</h2>
+            </div>
+            <div class="col-2 user-col">
+                <h3>Wins:</h3>
+                <p id="wins">0</p>
+                <h3>Losses:</h3>
+                <p id="losses">0</p>
+            </div>
+        </div>
+        <div class="row crystal-row">
+            <div class="col-2 ruby-col">
+                <img id="stoneImage" alt="CSS Image" src="http://www.kings1912.com/blog/wp-content/uploads/2010/07/ruby.jpg">
+            </div>
+            <div class="col-2 sapphire-col">
+                <img id="stoneImage2" alt="CSS Image" src="https://i.ebayimg.com/thumbs/images/g/8FYAAOSwfUZdA66J/s-l200.jpg">
+            </div>
+            <div class="col-2 amethyst-col">
+                <img id="stoneImage3" alt="CSS Image" src="https://cdn3.volusion.com/acjkd.lbvrz/v/vspfiles/photos/HF-2038AMETHYST6-3.png">
+            </div>
+            <div class="col-2 emerald-col">
+                <img id="stoneImage4" alt="CSS Image" src="http://www.gurutvakaryalay.com/image/cache/data/Gemstone/Category%20Green%20Emerald-200x200.jpg">
+            </div>
+        </div>
+        <div class="row total-row">
+            <div class="col-4 total-col">
+                <h2>Your total score is:</h2>
+            </div>
+        </div>
+        <div class="row total-row">
+            <div class="col-4 final-col">
+                0
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
