@@ -21,19 +21,19 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-#stoneImage {
+#ruby {
     width: 100%;
 object-fit: cover;
 }
-#stoneImage2 {
+#sapphire {
     width: 100%;
     object-fit: cover;
 }
-#stoneImage3 {
+#amethyst {
     width: 100%;
     object-fit: cover;
 }
-#stoneImage4 {
+#emerald {
     width: 100%;
     object-fit: cover;
 }
